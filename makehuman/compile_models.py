@@ -45,6 +45,7 @@ import module3d
 import files3d
 from getpath import isSubPath
 
+
 def getAllFiles(rootPath, filterStrArr):
     result = [ None ]*len(filterStrArr)
     for root, dirnames, filenames in os.walk(rootPath):
